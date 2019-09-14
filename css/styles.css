@@ -1,0 +1,1764 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%; }
+
+.container {
+  max-width: 1140px;
+  margin: auto; }
+
+@font-face {
+  font-family: Baskerville;
+  font-weight: 400;
+  src: url(../fonts/Baskerville.woff) format("woff"); }
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 300;
+  src: url(../fonts/Montserrat-Light.woff) format("woff"); }
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 400;
+  src: url(../fonts/Montserrat-Regular.woff) format("woff"); }
+
+@font-face {
+  font-family: Montserrat;
+  font-weight: 600;
+  src: url(../fonts/Montserrat-SemiBold.woff) format("woff"); }
+
+img {
+  display: inline-block;
+  vertical-align: middle; }
+
+.header-banner .support {
+  position: fixed;
+  z-index: 9999;
+  background-color: #cba442;
+  color: #fff;
+  width: 100px;
+  text-align: center;
+  padding: 10px 20px;
+  margin-top: 90px; }
+  .header-banner .support .menu {
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 75px;
+    text-align: center;
+    width: 100%; }
+    .header-banner .support .menu .bnt span {
+      background: #fff;
+      display: block;
+      height: 2px;
+      margin: 0 auto 4px auto;
+      width: 40px; }
+  .header-banner .support .buttons-1 {
+    width: 100%; }
+    .header-banner .support .buttons-1 .item {
+      display: block;
+      margin-bottom: 20px;
+      padding: 7px; }
+
+.header-banner .header {
+  position: relative; }
+  .header-banner .header .banner-mobile {
+    display: none; }
+  .header-banner .header .banner .logo {
+    position: absolute;
+    z-index: 5;
+    top: 0%;
+    left: 40%; }
+  .header-banner .header .banner .absolua {
+    position: absolute;
+    z-index: 99;
+    top: 45%;
+    left: 10%; }
+    .header-banner .header .banner .absolua .text {
+      font-family: 'Libre Baskerville', serif; }
+      .header-banner .header .banner .absolua .text p {
+        margin: 0;
+        color: #fff;
+        font-size: 24px; }
+    .header-banner .header .banner .absolua h3 {
+      font-style: italic;
+      font-family: Baskerville;
+      font-size: 72px;
+      margin: 0;
+      color: #fff;
+      margin-left: 30px;
+      font-weight: 300; }
+    .header-banner .header .banner .absolua .fil {
+      font-family: Montserrat;
+      font-size: 20px; }
+      .header-banner .header .banner .absolua .fil a {
+        color: #fff; }
+  .header-banner .header .banner .tile-height {
+    position: absolute;
+    z-index: 9999;
+    top: 80%;
+    left: 36%;
+    text-align: center; }
+    .header-banner .header .banner .tile-height h4 {
+      margin: 0;
+      font-family: 'Libre Baskerville', serif;
+      font-style: italic;
+      font-size: 18px;
+      color: #fff; }
+
+.content-home .home-1 {
+  position: absolute;
+  z-index: 1; }
+
+.content-home .home-desktop .tile {
+  position: relative;
+  z-index: 2;
+  text-align: center; }
+  .content-home .home-desktop .tile p {
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Libre Baskerville', serif;
+    color: #0a4657;
+    margin-bottom: 35px;
+    margin-top: 35px; }
+
+.content-home .home-desktop .Banner-ThuongHai {
+  width: 100%; }
+  .content-home .home-desktop .Banner-ThuongHai .slider {
+    position: relative;
+    z-index: 2;
+    padding-bottom: 80px;
+    width: 90%; }
+    .content-home .home-desktop .Banner-ThuongHai .slider .home-3 {
+      position: relative;
+      width: 95%; }
+    .content-home .home-desktop .Banner-ThuongHai .slider h3 {
+      margin: 0;
+      position: absolute;
+      top: 77%;
+      left: 41%;
+      font-size: 20px;
+      color: #fff;
+      font-family: Baskerville;
+      text-transform: uppercase;
+      font-weight: 300; }
+    .content-home .home-desktop .Banner-ThuongHai .slider .box-img-shadow {
+      position: absolute;
+      z-index: -1;
+      bottom: 0px;
+      left: 0px;
+      right: 0; }
+      .content-home .home-desktop .Banner-ThuongHai .slider .box-img-shadow .home-2 {
+        width: 100%; }
+
+.content-home .home-desktop .Banner-sigapore {
+  float: right;
+  margin-top: 90px;
+  margin-bottom: 170px;
+  width: 100%; }
+  .content-home .home-desktop .Banner-sigapore .slider {
+    position: relative;
+    z-index: 2;
+    float: right;
+    width: 90%; }
+    .content-home .home-desktop .Banner-sigapore .slider .home-3 {
+      position: relative;
+      width: 95%;
+      float: right; }
+    .content-home .home-desktop .Banner-sigapore .slider h3 {
+      margin: 0;
+      position: absolute;
+      top: 88%;
+      left: 48%;
+      font-size: 20px;
+      color: #fff;
+      font-family: Baskerville;
+      text-transform: uppercase;
+      font-weight: 300; }
+    .content-home .home-desktop .Banner-sigapore .slider .box-img-shadow {
+      position: absolute;
+      z-index: -1;
+      bottom: -80px;
+      left: 0px;
+      right: 0; }
+      .content-home .home-desktop .Banner-sigapore .slider .box-img-shadow .home-2 {
+        width: 100%; }
+
+.content-home .home-desktop .Banner-HongKong {
+  width: 100%; }
+  .content-home .home-desktop .Banner-HongKong .slider {
+    position: relative;
+    z-index: 2;
+    padding-bottom: 80px;
+    width: 90%; }
+    .content-home .home-desktop .Banner-HongKong .slider .home-3 {
+      position: relative;
+      width: 95%; }
+    .content-home .home-desktop .Banner-HongKong .slider h3 {
+      margin: 0;
+      position: absolute;
+      top: 90%;
+      left: 42%;
+      font-size: 20px;
+      color: #fff;
+      font-family: Baskerville;
+      text-transform: uppercase;
+      font-weight: 300; }
+    .content-home .home-desktop .Banner-HongKong .slider .box-img-shadow {
+      position: absolute;
+      z-index: -1;
+      bottom: 0px;
+      left: 0px;
+      right: 0; }
+      .content-home .home-desktop .Banner-HongKong .slider .box-img-shadow .home-2 {
+        width: 100%; }
+
+.content-home .banner .box-img-shadow {
+  position: relative; }
+  .content-home .banner .box-img-shadow .home {
+    width: 100%; }
+  .content-home .banner .box-img-shadow p {
+    font-style: italic;
+    font-family: Baskerville;
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    top: 78%;
+    left: 29%; }
+
+.content-home .banner-1 .box-img-shadow {
+  position: relative;
+  margin-top: -3px; }
+  .content-home .banner-1 .box-img-shadow .home {
+    width: 100%; }
+  .content-home .banner-1 .box-img-shadow p {
+    font-style: italic;
+    font-family: Baskerville;
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    top: 78%;
+    left: 29%; }
+
+.banner-discover {
+  position: relative; }
+  .banner-discover .shoe {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 70%; }
+  .banner-discover .shoe-1 {
+    display: none; }
+  .banner-discover .row-container {
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-bottom: 100px; }
+    .banner-discover .row-container .tile-discover {
+      position: relative;
+      z-index: 2;
+      top: 85px; }
+      .banner-discover .row-container .tile-discover h3 {
+        font-size: 50px;
+        font-family: Baskerville;
+        color: #cba442;
+        margin: 0;
+        font-weight: 300; }
+      .banner-discover .row-container .tile-discover h4 {
+        margin: 0;
+        font-size: 30px;
+        font-family: Montserrat;
+        font-weight: 500;
+        color: #fff; }
+      .banner-discover .row-container .tile-discover p {
+        font-family: Montserrat;
+        color: #d5dbdd;
+        font-size: 14px;
+        text-align: justify;
+        font-weight: 300;
+        line-height: 2.2; }
+        .banner-discover .row-container .tile-discover p a {
+          font-family: Montserrat;
+          color: #fff;
+          font-size: 14px;
+          font-weight: bold; }
+    .banner-discover .row-container .contact {
+      position: relative;
+      z-index: 2;
+      top: 59%;
+      left: 18%; }
+      .banner-discover .row-container .contact .box {
+        color: #d5dbdd;
+        font-family: Montserrat;
+        font-weight: 300;
+        line-height: 2.2; }
+        .banner-discover .row-container .contact .box .tile {
+          margin: 0;
+          display: inline-block;
+          font-size: 15px;
+          color: #fff;
+          font-family: Montserrat;
+          font-weight: bold; }
+      .banner-discover .row-container .contact h4 {
+        font-family: Montserrat;
+        color: #cba442;
+        font-size: 15px;
+        display: inline-block; }
+      .banner-discover .row-container .contact img {
+        margin-left: 10px;
+        width: 5%; }
+  .banner-discover .sider-bottom .banner-1 .shoe {
+    margin-top: 105px;
+    position: relative; }
+  .banner-discover .sider-bottom .banner-1 .shoe-mobile {
+    display: none; }
+
+.banner-introduce {
+  margin-bottom: 70px;
+  position: relative; }
+  .banner-introduce:after {
+    clear: both;
+    content: '';
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden; }
+  .banner-introduce .box-text {
+    float: left;
+    padding-left: 9%;
+    width: 45%;
+    position: relative;
+    left: 0%;
+    bottom: 55px; }
+    .banner-introduce .box-text .heading-title h3 {
+      font-family: Baskerville;
+      font-size: 50px;
+      color: #cba442;
+      margin-bottom: 0;
+      margin: 0;
+      font-weight: 300;
+      width: 100%; }
+    .banner-introduce .box-text .heading-title h4 {
+      margin-top: 0;
+      font-family: Montserrat;
+      font-weight: 500;
+      font-size: 30px;
+      color: #0a4657;
+      margin-bottom: 30px;
+      width: 100%; }
+    .banner-introduce .box-text p {
+      font-family: Montserrat;
+      font-weight: bold;
+      font-size: 14px;
+      color: #cba442; }
+    .banner-introduce .box-text .text {
+      font-family: Baskerville; }
+      .banner-introduce .box-text .text p {
+        font-family: Montserrat;
+        color: #000;
+        padding-right: 35%;
+        font-weight: 300;
+        line-height: 2.2; }
+        .banner-introduce .box-text .text p a {
+          font-family: Baskerville;
+          font-weight: bold;
+          font-size: 15px; }
+  .banner-introduce .swiper-1 {
+    position: relative;
+    float: left;
+    width: 55%; }
+    .banner-introduce .swiper-1 .slider {
+      position: relative;
+      padding-top: 100px;
+      z-index: 5; }
+      .banner-introduce .swiper-1 .slider .home {
+        display: inline-block;
+        vertical-align: middle;
+        width: 100%; }
+      .banner-introduce .swiper-1 .slider .box-img-shadow {
+        position: absolute;
+        width: 80%;
+        right: 0;
+        z-index: -1;
+        top: -25px; }
+        .banner-introduce .swiper-1 .slider .box-img-shadow .home-1 {
+          width: 100%; }
+  .banner-introduce .swiper-button-prev {
+    position: absolute;
+    left: 0;
+    top: 78%;
+    height: 168px;
+    width: 7%;
+    background-color: #226577;
+    background-image: none; }
+    .banner-introduce .swiper-button-prev:after {
+      background-image: url(../images/muiten1.png);
+      content: '';
+      width: 45px;
+      height: 15px;
+      position: absolute;
+      top: 47%;
+      left: 10px; }
+  .banner-introduce .swiper-button-next {
+    position: absolute;
+    left: 70px;
+    top: auto;
+    background-image: none;
+    bottom: 27px;
+    width: 70px;
+    height: 65px;
+    background-color: #cba442; }
+    .banner-introduce .swiper-button-next:after {
+      background-image: url(../images/muiten.png);
+      content: '';
+      width: 45px;
+      height: 15px;
+      position: absolute;
+      top: 40%;
+      left: 10px; }
+
+.banner-introduce-slider {
+  position: relative;
+  margin-bottom: 130px; }
+  .banner-introduce-slider:after {
+    clear: both;
+    content: '';
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden; }
+  .banner-introduce-slider .swiper-button-prev {
+    position: absolute;
+    left: auto;
+    right: 0;
+    top: 77%;
+    height: 168px;
+    width: 7%;
+    background-color: #226577;
+    background-image: none; }
+    .banner-introduce-slider .swiper-button-prev:after {
+      background-image: url(../images/muiten.png);
+      content: '';
+      width: 45px;
+      height: 15px;
+      position: absolute;
+      top: 47%;
+      right: 10px; }
+  .banner-introduce-slider .swiper-button-next {
+    position: absolute;
+    right: 70px;
+    top: auto;
+    background-image: none;
+    bottom: 30px;
+    width: 70px;
+    height: 65px;
+    background-color: #cba442; }
+    .banner-introduce-slider .swiper-button-next:after {
+      background-image: url(../images/muiten1.png);
+      content: '';
+      width: 45px;
+      height: 15px;
+      position: absolute;
+      top: 40%;
+      right: 10px; }
+  .banner-introduce-slider .swiper-2 {
+    float: left;
+    width: 55%;
+    position: relative; }
+    .banner-introduce-slider .swiper-2 .home {
+      display: inline-block;
+      vertical-align: middle;
+      width: 100%; }
+    .banner-introduce-slider .swiper-2 .swiper-slide {
+      float: left;
+      width: 45%; }
+      .banner-introduce-slider .swiper-2 .swiper-slide .slider {
+        position: relative;
+        z-index: 5;
+        padding-top: 100px; }
+        .banner-introduce-slider .swiper-2 .swiper-slide .slider .home {
+          display: inline-block;
+          vertical-align: middle;
+          width: 100%; }
+        .banner-introduce-slider .swiper-2 .swiper-slide .slider .box-img-shadow {
+          position: absolute;
+          width: 80%;
+          left: 0;
+          z-index: -1;
+          top: -25px; }
+  .banner-introduce-slider .box-text {
+    float: right;
+    width: 35%;
+    position: relative;
+    text-align: right;
+    padding-right: 8%;
+    bottom: 40px; }
+    .banner-introduce-slider .box-text .heading-title h3 {
+      font-family: Baskerville;
+      font-size: 50px;
+      color: #cba442;
+      margin-bottom: 0;
+      margin: 0;
+      font-weight: 300;
+      width: 100%;
+      float: right; }
+    .banner-introduce-slider .box-text .heading-title h4 {
+      margin-top: 0;
+      font-family: Montserrat;
+      font-weight: 500;
+      font-size: 30px;
+      color: #cba442;
+      width: 100%;
+      float: right; }
+    .banner-introduce-slider .box-text p {
+      font-family: Montserrat;
+      font-weight: bold;
+      font-size: 14px;
+      color: #cba442;
+      display: inline-block;
+      padding: 0 10px;
+      font-weight: 300;
+      line-height: 2.2;
+      border-right: 1px solid #e1e1e1; }
+    .banner-introduce-slider .box-text .text {
+      font-family: Montserrat; }
+      .banner-introduce-slider .box-text .text p {
+        font-family: Montserrat;
+        color: #000;
+        padding-left: 20%;
+        border-right: none; }
+        .banner-introduce-slider .box-text .text p a {
+          font-family: Baskerville;
+          font-weight: bold;
+          font-size: 15px;
+          color: #000; }
+
+.banner-discover-360 {
+  position: relative; }
+  .banner-discover-360 .shoe-mobile {
+    display: none; }
+  .banner-discover-360 .tile {
+    position: absolute;
+    z-index: 3;
+    top: -17%;
+    left: 8%;
+    background-color: #cba442;
+    padding: 40px 100px; }
+    .banner-discover-360 .tile .tile-1 {
+      position: relative;
+      left: -20%; }
+      .banner-discover-360 .tile .tile-1 a {
+        font-family: Baskerville;
+        font-size: 50px;
+        color: #fff; }
+    .banner-discover-360 .tile .tile-2 {
+      position: relative;
+      left: -20%; }
+      .banner-discover-360 .tile .tile-2 a {
+        font-family: Baskerville;
+        font-size: 30px;
+        color: #fff; }
+
+.banner-benefit-community {
+  padding-bottom: 10px;
+  position: relative; }
+  .banner-benefit-community .banner {
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%; }
+  .banner-benefit-community .benefit {
+    position: relative;
+    z-index: 3;
+    top: 100px; }
+    .banner-benefit-community .benefit:after {
+      clear: both;
+      content: '';
+      display: block;
+      height: 0;
+      line-height: 0;
+      visibility: hidden; }
+    .banner-benefit-community .benefit .box-text {
+      float: right;
+      padding-right: 5%;
+      padding-left: 5%;
+      width: 50%;
+      position: relative;
+      left: 0%;
+      text-align: right; }
+      .banner-benefit-community .benefit .box-text .heading-title h3 {
+        font-family: Baskerville;
+        font-size: 50px;
+        color: #cba442;
+        margin-bottom: 0;
+        font-weight: 300; }
+      .banner-benefit-community .benefit .box-text .heading-title h4 {
+        margin-top: 0;
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: 30px;
+        color: #fff;
+        margin: 0; }
+      .banner-benefit-community .benefit .box-text p {
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 14px;
+        color: #439cb5;
+        display: inline-block;
+        padding: 0 10px;
+        font-weight: 300;
+        line-height: 2.2; }
+      .banner-benefit-community .benefit .box-text .text {
+        font-family: Baskerville; }
+        .banner-benefit-community .benefit .box-text .text p {
+          font-family: Montserrat;
+          color: #fff; }
+          .banner-benefit-community .benefit .box-text .text p a {
+            font-family: Baskerville;
+            font-weight: bold;
+            font-size: 15px; }
+    .banner-benefit-community .benefit .swiper-2 {
+      float: left;
+      width: 50%; }
+      .banner-benefit-community .benefit .swiper-2 .swiper-slide {
+        float: left;
+        width: 55%; }
+        .banner-benefit-community .benefit .swiper-2 .swiper-slide .slider {
+          position: relative;
+          z-index: 5; }
+          .banner-benefit-community .benefit .swiper-2 .swiper-slide .slider .home {
+            float: left;
+            width: 100%; }
+          .banner-benefit-community .benefit .swiper-2 .swiper-slide .slider .box-img-shadow {
+            position: absolute;
+            width: 80%;
+            z-index: -1;
+            top: -22%; }
+  .banner-benefit-community .community {
+    position: relative;
+    z-index: 3;
+    top: 100px;
+    padding-bottom: 220px; }
+    .banner-benefit-community .community:after {
+      clear: both;
+      content: '';
+      display: block;
+      height: 0;
+      line-height: 0;
+      visibility: hidden; }
+    .banner-benefit-community .community .box-text {
+      float: left;
+      padding-left: 8%;
+      width: 50%;
+      position: relative;
+      left: 0%;
+      text-align: left;
+      padding-right: 5%; }
+      .banner-benefit-community .community .box-text .heading-title h3 {
+        font-family: Baskerville;
+        font-size: 50px;
+        color: #cba442;
+        margin-bottom: 0;
+        font-weight: 300; }
+      .banner-benefit-community .community .box-text .heading-title h4 {
+        margin-top: 0;
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: 30px;
+        color: #fff;
+        margin: 0; }
+      .banner-benefit-community .community .box-text p {
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 14px;
+        color: #439cb5;
+        display: inline-block;
+        padding: 0 10px;
+        font-weight: 300;
+        line-height: 2.2; }
+      .banner-benefit-community .community .box-text .text {
+        font-family: Baskerville; }
+        .banner-benefit-community .community .box-text .text p {
+          font-family: Montserrat;
+          color: #fff; }
+          .banner-benefit-community .community .box-text .text p a {
+            font-family: Baskerville;
+            font-weight: bold;
+            font-size: 15px; }
+    .banner-benefit-community .community .swiper-3 {
+      float: right;
+      width: 50%; }
+      .banner-benefit-community .community .swiper-3 .swiper-slide {
+        float: left;
+        width: 55%; }
+        .banner-benefit-community .community .swiper-3 .swiper-slide .slider {
+          position: relative;
+          z-index: 5; }
+          .banner-benefit-community .community .swiper-3 .swiper-slide .slider .home {
+            float: right;
+            width: 100%; }
+          .banner-benefit-community .community .swiper-3 .swiper-slide .slider .box-img-shadow {
+            position: absolute;
+            width: 80%;
+            z-index: -1;
+            top: -22%; }
+
+.home-row-partner {
+  padding-top: 30px; }
+  .home-row-partner .row-container {
+    padding-left: 8%;
+    padding-right: 8%; }
+    .home-row-partner .row-container .heading-title {
+      text-align: center; }
+      .home-row-partner .row-container .heading-title h4 {
+        color: #0a4657;
+        font-size: 30px;
+        font-family: Montserrat;
+        font-weight: 500;
+        margin: 0; }
+      .home-row-partner .row-container .heading-title h3 {
+        font-family: Baskerville;
+        font-size: 50px;
+        color: #cba442;
+        margin: 0;
+        font-weight: 300; }
+    .home-row-partner .row-container .slider-box {
+      margin-top: 40px; }
+      .home-row-partner .row-container .slider-box .swiper-slide img {
+        margin-bottom: 20px;
+        width: 100%; }
+      .home-row-partner .row-container .slider-box .swiper-slide .hot-1 {
+        font-family: Montserrat;
+        font-size: 15px;
+        color: #aeb8bb; }
+      .home-row-partner .row-container .slider-box .swiper-slide .thumbnail:hover p {
+        color: #2b7c92; }
+      .home-row-partner .row-container .slider-box .swiper-slide .thumbnail p {
+        font-size: 16px;
+        font-family: Montserrat;
+        font-weight: bold;
+        color: #333333; }
+      .home-row-partner .row-container .slider-box .swiper-slide .see-more p {
+        width: 50%;
+        float: left;
+        color: #cba442;
+        font-family: Montserrat;
+        font-weight: bold;
+        margin: 0; }
+      .home-row-partner .row-container .slider-box .swiper-slide .see-more a {
+        width: 50%; }
+        .home-row-partner .row-container .slider-box .swiper-slide .see-more a img {
+          float: right;
+          width: 10%; }
+      .home-row-partner .row-container .slider-box .see {
+        text-align: center;
+        margin-bottom: 90px;
+        margin-top: 40px; }
+        .home-row-partner .row-container .slider-box .see .submit {
+          padding: 15px 40px;
+          font-size: 14px;
+          font-weight: 700;
+          color: #fff;
+          background-color: #cba442;
+          letter-spacing: 1.7px; }
+
+.registration {
+  overflow: hidden;
+  width: 100%; }
+  .registration .home-1 {
+    position: absolute;
+    z-index: -1;
+    width: 100%; }
+  .registration .heading-title {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding-top: 11px;
+    padding-bottom: 30px; }
+    .registration .heading-title h3 {
+      font-family: Baskerville;
+      font-size: 50px;
+      color: #cba442;
+      margin: 0;
+      font-weight: 300; }
+    .registration .heading-title h4 {
+      font-size: 30px;
+      color: #fff;
+      font-family: Montserrat;
+      font-weight: 500;
+      margin: 0; }
+  .registration .box {
+    float: left;
+    z-index: 7;
+    width: 100%; }
+    .registration .box .home {
+      width: 98%; }
+  .registration .text {
+    position: relative;
+    z-index: 7;
+    float: right; }
+    .registration .text .newsletter-container {
+      padding-right: 12%;
+      margin-top: 50px; }
+      .registration .text .newsletter-container .title {
+        font-size: 13px;
+        color: #d5dbde;
+        font-family: Montserrat;
+        margin-bottom: 50px;
+        font-weight: 300;
+        line-height: 2.2; }
+        .registration .text .newsletter-container .title a {
+          font-size: 13px;
+          color: #fff;
+          font-family: Montserrat;
+          font-weight: bold; }
+      .registration .text .newsletter-container .newsletter-form .information label {
+        color: #5498aa;
+        text-transform: uppercase; }
+      .registration .text .newsletter-container .newsletter-form .information input {
+        background: none;
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+        color: white;
+        line-height: 25px;
+        margin: 0 0 30px 0;
+        width: 100%; }
+      .registration .text .newsletter-container .see-more p {
+        display: inline-block;
+        float: left;
+        color: #cba442;
+        font-family: Montserrat;
+        font-weight: bold; }
+      .registration .text .newsletter-container .see-more a {
+        display: inline-block;
+        margin-left: 10px; }
+        .registration .text .newsletter-container .see-more a img {
+          margin-top: 8px;
+          float: right; }
+
+.footer-content {
+  background-color: #003948; }
+  .footer-content .row-container {
+    padding-left: 5%;
+    padding-right: 5%; }
+    .footer-content .row-container .logo-item {
+      padding: 5px 10px 18px 10px;
+      border-right: 1px solid #214a55; }
+    .footer-content .row-container .contact {
+      padding: 40px 10px 88px 0px;
+      border-right: 1px solid #214a55; }
+      .footer-content .row-container .contact .box {
+        color: #779ea8;
+        margin-bottom: 15px;
+        font-family: Montserrat; }
+        .footer-content .row-container .contact .box p {
+          display: inline-block;
+          margin: 0;
+          font-weight: bold;
+          font-family: Montserrat;
+          color: #fff; }
+      .footer-content .row-container .contact .box-1 {
+        width: 50%;
+        float: left;
+        margin-bottom: 10px;
+        font-family: Montserrat;
+        color: #779ea8; }
+        .footer-content .row-container .contact .box-1 p {
+          display: inline-block;
+          margin: 0;
+          font-weight: bold;
+          font-family: Montserrat;
+          color: #fff; }
+    .footer-content .row-container .Social {
+      padding-top: 70px;
+      text-align: center; }
+      .footer-content .row-container .Social i {
+        color: #cba442;
+        padding: 0 15px;
+        font-size: 20px; }
+  .footer-content .footer {
+    background-color: #003948;
+    border-top: 1px solid #214a55; }
+    .footer-content .footer .row-container {
+      padding-left: 8%;
+      padding-right: 8%;
+      margin: 0; }
+      .footer-content .footer .row-container .footer-1 p {
+        color: #779ea8;
+        display: inline-block;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        font-family: Montserrat; }
+        .footer-content .footer .row-container .footer-1 p a {
+          color: #a98e44; }
+      .footer-content .footer .row-container .footer-1 .text {
+        color: #779ea8;
+        display: inline-block;
+        float: right;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        font-family: Montserrat; }
+
+@media screen and (max-width: 1200px) {
+  .header-banner .header .menu-banner-inner .Popular .banner .tile-height {
+    left: 33%; }
+  .header-banner .header .menu-banner-inner .Popular .banner .logo {
+    top: -2%; }
+  .content-home .home-desktop .Banner-ThuongHai .slider h3 {
+    top: 75%; }
+  .content-home .home-desktop .Banner-sigapore .slider h3 {
+    top: 87%;
+    left: 47%; }
+  .content-home .home-desktop .Banner-HongKong .slider h3 {
+    top: 89%; }
+  .banner-introduce .box-text .heading-title h3 {
+    font-size: 35px; }
+  .banner-introduce .box-text p {
+    font-size: 12; }
+  .banner-introduce .box-text p {
+    font-size: 11px; }
+  .banner-introduce-slider .box-text .heading-title h3 {
+    font-size: 35px; }
+  .banner-introduce-slider .box-text p {
+    font-size: 12px; }
+  .banner-introduce-slider .box-text {
+    bottom: 30px; }
+  .banner-benefit-community .benefit .box-text p {
+    font-size: 12px; }
+  .banner-benefit-community .community .box-text p {
+    font-size: 12px; }
+  .registration .home .home-1 {
+    width: 100%;
+    height: 100%; }
+  .registration .box .home {
+    width: 100%; }
+  .content-home .banner .box-img-shadow p {
+    font-size: 15px; }
+  .content-home .banner-1 .box-img-shadow p {
+    font-size: 15px; }
+  .footer-content .row-container .logo-item {
+    padding: 15px 10px 40px 10px; }
+  .footer-content .row-container .contact {
+    padding: 40px 12px 73px 10px; } }
+
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+  .banner-discover .row-container .tile-discover .boder h3 {
+    font-size: 45px; }
+  .banner-discover .row-container .tile-discover .boder h4 {
+    font-size: 25px; }
+  .banner-discover .row-container .tile-discover .boder p a {
+    font-size: 12px; }
+  .banner-discover .row-container .tile-discover .boder p {
+    font-size: 12px; }
+  .banner-discover .row-container .contact .box {
+    font-size: 12px;
+    margin-bottom: 5px; }
+  .banner-discover .row-container .contact {
+    top: 62%; }
+  .header-banner .header .menu-banner-inner .Popular .banner .logo {
+    top: -3%; }
+  .banner-discover .sider-bottom .banner-1 .shoe {
+    margin-top: 75px; }
+  .banner-discover .row-container .contact .box .tile {
+    font-size: 13px; }
+  .registration .text .newsletter-container .title {
+    margin-bottom: 25px; }
+  .registration .text .newsletter-container {
+    margin: 0; }
+  .banner-benefit-community .benefit .box-text .heading-title h3 {
+    margin-top: 20px; }
+  .banner-benefit-community .community .box-text .heading-title h3 {
+    margin-top: 20px; }
+  .banner-benefit-community .community .box-text p {
+    padding: 0; }
+  .banner-introduce .box-text .heading-title h3 {
+    font-size: 40px; }
+  .banner-introduce .box-text .heading-title h4 {
+    font-size: 25px; }
+  .banner-introduce .box-text .text p {
+    padding-right: 40%; }
+  .banner-introduce-slider .box-text .heading-title h3 {
+    font-size: 39px; }
+  .banner-introduce-slider .box-text .heading-title h4 {
+    font-size: 22px; }
+  .banner-introduce-slider .box-text .text p {
+    padding-left: 20%; }
+  .banner-introduce .swiper-button-prev {
+    top: 78%;
+    height: 115px;
+    width: 6%; }
+  .banner-introduce .swiper-button-prev:after {
+    width: 60%; }
+  .banner-introduce .swiper-button-next {
+    left: 50px;
+    bottom: 58px;
+    width: 60px;
+    height: 51px; }
+  .banner-introduce-slider .swiper-button-prev {
+    top: 81%;
+    height: 115px;
+    width: 6%; }
+  .banner-introduce-slider .swiper-button-next {
+    right: 50px;
+    bottom: 41px;
+    width: 60px;
+    height: 51px; } }
+
+@media screen and (max-width: 992px) {
+  .home-row-partner .row-container .slider-box .swiper-slide .thumbnail p {
+    font-size: 14px; }
+  .banner-discover .row-container .tile-discover {
+    top: 55px; }
+  .content-home .home-desktop .Banner-sigapore .slider .box-img-shadow {
+    bottom: -55px; }
+  .header-banner .header .menu-banner-inner .Popular .banner .absolua .text p {
+    font-size: 21px; }
+  .header-banner .header .menu-banner-inner .Popular .banner .absolua h3 {
+    font-size: 60px; }
+  .header-banner .header .menu-banner-inner .Popular .banner .absolua .fil {
+    font-size: 19px; }
+  .header-banner .header .menu-banner-inner .Popular .banner .logo {
+    top: -4%; }
+  .header-banner .header .menu-banner-inner .Popular .banner .tile-height {
+    left: 34%; }
+  .header-banner .header .menu-banner-inner .Popular .banner .tile-height h4 {
+    font-size: 15px; }
+  .content-home .home-desktop .tile p {
+    font-size: 15px; }
+  .content-home .home-desktop .Banner-ThuongHai .slider h3 {
+    font-size: 15px; }
+  .content-home .home-desktop .Banner-sigapore .slider h3 {
+    font-size: 15px;
+    top: 87%;
+    left: 48%; }
+  .content-home .home-desktop .Banner-HongKong .slider h3 {
+    font-size: 15px;
+    top: 89%;
+    left: 42%; }
+  .banner-discover .row-container .contact {
+    top: 47%; }
+  .banner-discover .sider-bottom .banner-1 .shoe {
+    margin-top: 50px; }
+  .content-home .banner .box-img-shadow p {
+    font-size: 13px;
+    left: 29%; }
+  .content-home .banner-1 .box-img-shadow p {
+    font-size: 13px; }
+  .banner-discover .row-container .tile-discover .boder p {
+    font-size: 12px; }
+  .banner-discover .row-container .tile-discover .boder h3 {
+    font-size: 45px; }
+  .banner-discover .row-container .tile-discover .boder h4 {
+    font-size: 25px; }
+  .banner-discover .row-container .contact .box {
+    font-size: 12px; }
+  .banner-discover .row-container .contact .box .tile {
+    font-size: 14px; }
+  .banner-introduce .box-text .heading-title h3 {
+    font-size: 37px; }
+  .banner-introduce .box-text p {
+    font-size: 11px; }
+  .banner-introduce .box-text .heading-title h4 {
+    font-size: 23px; }
+  .banner-introduce .box-text .text p {
+    font-size: 10px; }
+  .banner-introduce-slider .box-text .heading-title h3 {
+    font-size: 37px; }
+  .banner-introduce-slider .box-text .heading-title h4 {
+    font-size: 23px;
+    margin: 0; }
+  .banner-introduce-slider .box-text .text p {
+    font-size: 10px; }
+  .banner-benefit-community .benefit .box-text .heading-title h3 {
+    margin: 0;
+    font-size: 45px; }
+  .banner-benefit-community .benefit .box-text .heading-title h4 {
+    font-size: 25px; }
+  .banner-benefit-community .benefit .box-text .text p {
+    margin: 0; }
+  .banner-benefit-community .community .box-text .heading-title h3 {
+    margin: 0;
+    font-size: 45px; }
+  .banner-benefit-community .community .box-text .heading-title h4 {
+    font-size: 25px; }
+  .banner-benefit-community .community .box-text .text p {
+    margin: 0;
+    padding: 0; }
+  .registration .text {
+    margin-top: 20px; }
+  .registration .text .newsletter-container {
+    margin: 0; }
+  .registration .text .newsletter-container .title {
+    margin-bottom: 10px;
+    font-size: 11px;
+    margin-top: 0; }
+  .footer-content .row-container .logo-item {
+    padding: 20px 10px 28px 10px; }
+  .footer-content .row-container .contact {
+    padding: 30px 12px 60px 10px; }
+  .footer-content .row-container .contact .box p {
+    font-size: 12px; }
+  .footer-content .row-container .contact .box {
+    font-size: 12px; }
+  .footer-content .row-container .contact .box-1 {
+    font-size: 12px; }
+  .footer-content .row-container .contact .box-1 p {
+    font-size: 12px; }
+  .footer-content .row-container .Social {
+    padding-top: 60px; }
+  .footer-content .row-container .Social i {
+    font-size: 19px; } }
+
+@media screen and (max-width: 768px) {
+  .banner-introduce .swiper-button-prev {
+    top: 102%;
+    height: 60px;
+    width: 8%; }
+  .banner-introduce .swiper-button-prev:after {
+    top: 24px; }
+  .banner-introduce .swiper-button-next {
+    left: 61px;
+    bottom: -57px;
+    width: 65px;
+    height: 60px; }
+  .banner-benefit-community .community {
+    top: 60px;
+    padding-bottom: 120px; }
+  .banner-introduce-slider .box-text {
+    -webkit-transform: translateX(-30%);
+    -ms-transform: translateX(-30%);
+    transform: translateX(-30%); }
+  .banner-benefit-community .benefit {
+    top: 60px; }
+  .banner-introduce-slider .box-text {
+    bottom: -55px;
+    width: 100%;
+    float: inherit; }
+  .banner-introduce-slider .swiper-2 {
+    width: 100%; }
+  .header-banner .header .menu-banner-inner .Popular .banner .logo {
+    width: 20%;
+    top: -3%; }
+  .header-banner .header .menu-banner-inner .Popular .banner .absolua .text p {
+    font-size: 20px; }
+  .header-banner .header .menu-banner-inner .Popular .banner .absolua h3 {
+    font-size: 45px; }
+  .header-banner .header .menu-banner-inner .Popular .banner .tile-height {
+    left: 32%; }
+  .header-banner .header .menu-banner-inner .Popular .banner .tile-height h4 {
+    font-size: 12px; }
+  .content-home .home-desktop .tile p {
+    font-size: 13px; }
+  .content-home .home-desktop .Banner-ThuongHai .slider .box-img-shadow {
+    bottom: 25px; }
+  .banner-discover .row-container .tile-discover {
+    top: 45px; }
+  .banner-discover .row-container .contact {
+    top: 44%; }
+  .banner-discover .sider-bottom .banner-1 .shoe {
+    margin-top: 50px; }
+  .banner-discover .row-container .tile-discover .boder h3 {
+    font-size: 30px; }
+  .banner-discover .row-container .tile-discover .boder p a {
+    font-size: 10px; }
+  .banner-discover .row-container .tile-discover .boder p {
+    font-size: 10px; }
+  .banner-discover .row-container .contact .box {
+    font-size: 10px; }
+  .banner-discover .row-container .contact .box .tile {
+    font-size: 11px; }
+  .banner-discover .row-container .contact .discover h4 {
+    font-size: 12px; }
+  .banner-discover .row-container .contact .discover a img {
+    width: 14%; }
+  .home-row-partner .row-container .heading-title h3 {
+    font-size: 35px; }
+  .home-row-partner .row-container .heading-title h4 {
+    font-size: 20px; }
+  .home-row-partner .row-container .slider-box .swiper-slide .see-more a img {
+    margin: 0; }
+  .home-row-partner .row-container .slider-box .swiper-slide .hot-1 {
+    font-size: 12px; }
+  .home-row-partner .row-container .slider-box .swiper-slide .thumbnail p {
+    font-size: 13px; }
+  .home-row-partner .row-container .slider-box .swiper-slide .see-more p {
+    font-size: 12px; }
+  .home-row-partner .row-container .slider-box .swiper-slide .see-more a img {
+    width: 20%; }
+  .home-row-partner .row-container .slider-box .see {
+    margin-bottom: 70px;
+    margin-top: 50px; }
+  .home-row-partner .row-container .slider-box .see .submit {
+    padding: 15px 30px; }
+  .banner-benefit-community .benefit .box-text .heading-title h3 {
+    font-size: 35px; }
+  .banner-benefit-community .benefit .box-text .heading-title h4 {
+    font-size: 15px; }
+  .banner-benefit-community .benefit .box-text p {
+    font-size: 10px; }
+  .banner-benefit-community .benefit .box-text .text p {
+    font-size: 10px; }
+  .banner-benefit-community .community .box-text .heading-title h3 {
+    font-size: 35px; }
+  .banner-benefit-community .community .box-text .heading-title h4 {
+    font-size: 15px; }
+  .banner-benefit-community .community .box-text p {
+    font-size: 10px; }
+  .banner-benefit-community .community .box-text .text p {
+    font-size: 10px; }
+  .registration .text {
+    margin-top: 10px; }
+  .registration .heading-title h3 {
+    font-size: 35px; }
+  .registration .heading-title h4 {
+    font-size: 20px; }
+  .header-banner .support .buttons-1 .item {
+    padding: 0px; }
+  .header-banner .support .menu {
+    margin-bottom: 45px;
+    font-size: 11px; }
+  .header-banner .support .menu .bnt span {
+    width: 25px; }
+  .header-banner .support {
+    width: 70px; }
+  .registration .text .newsletter-container .newsletter-form .information label {
+    font-size: 12px; }
+  .registration .text .newsletter-container .newsletter-form .information input {
+    margin: 0;
+    margin-bottom: 10px; }
+  .registration .text .newsletter-container .see-more a img {
+    width: 70%;
+    margin: 0; }
+  .registration .text .newsletter-container .see-more p {
+    margin: 0;
+    font-size: 12px; }
+  .footer-content .row-container .Social i {
+    padding: 0 10px; }
+  .footer-content .row-container .contact .box {
+    font-size: 10px; }
+  .footer-content .row-container .contact .box p {
+    font-size: 10px; }
+  .footer-content .row-container .contact .box-1 p {
+    font-size: 10px; }
+  .footer-content .row-container .contact .box-1 {
+    font-size: 10px; }
+  .footer-content .row-container .logo-item {
+    padding: 20px 10px 25px 10px; }
+  .footer-content .row-container .contact {
+    padding: 22px 12px 50px 10px; }
+  .footer-content .row-container .Social {
+    padding-top: 50px; }
+  .registration .home .home-1 {
+    height: 40%; }
+  .footer-content .footer .row-container .footer-1 p {
+    font-size: 10px; }
+  .banner-introduce .box-text {
+    bottom: 15px;
+    width: 100%;
+    float: inherit;
+    text-align: center; }
+  .banner-introduce .swiper-1 {
+    width: 100%; }
+  .banner-introduce .box-text .heading-title h3 {
+    font-size: 45px; }
+  .banner-introduce .box-text .heading-title h4 {
+    font-size: 25px;
+    margin: 0; }
+  .banner-introduce .box-text p {
+    font-size: 12px; }
+  .banner-introduce .box-text .text p {
+    font-size: 12px;
+    padding-right: 7%; }
+  .banner-introduce-slider .box-text .heading-title h3 {
+    font-size: 45px;
+    -webkit-transform: translateX(10%);
+    -ms-transform: translateX(10%);
+    transform: translateX(10%); }
+  .banner-benefit-community .community .box-text {
+    padding-top: 20px; }
+  .banner-introduce-slider .box-text .heading-title h4 {
+    font-size: 25px;
+    -webkit-transform: translateX(10%);
+    -ms-transform: translateX(10%);
+    transform: translateX(10%); }
+  .banner-introduce-slider .box-text p {
+    font-size: 12px; }
+  .banner-introduce-slider .swiper-button-prev {
+    top: 72%;
+    height: 65px;
+    width: 8%; }
+  .banner-introduce-slider .swiper-button-prev:after {
+    top: 45%; }
+  .banner-introduce-slider .swiper-button-next {
+    right: 61px;
+    bottom: 185px; }
+  .banner-introduce-slider .box-text .text p {
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 5%; }
+  .banner-introduce-slider .box-text .text p a {
+    font-size: 13px; }
+  .content-home .banner-1 .box-img-shadow p {
+    font-size: 12px;
+    left: 25%; }
+  .content-home .banner .box-img-shadow p {
+    font-size: 12px;
+    left: 25%; }
+  .content-home .home-desktop .Banner-sigapore {
+    margin-top: 60px;
+    margin-bottom: 140px; }
+  .content-home .home-desktop .Banner-HongKong .slider {
+    padding-bottom: 50px; }
+  .content-home .home-desktop .Banner-ThuongHai .slider h3 {
+    left: 39%;
+    top: 70%; }
+  .content-home .home-desktop .Banner-HongKong .slider h3 {
+    top: 89%;
+    left: 40%;
+    font-size: 15px; }
+  .content-home .home-desktop .Banner-sigapore .slider h3 {
+    top: 85%;
+    left: 46%; }
+  .banner-introduce .swiper-1 .swiper-slide .slider .box-img-shadow {
+    top: 20px; }
+  .banner-introduce-slider .swiper-2 .swiper-slide .slider .box-img-shadow {
+    top: 20px; }
+  .banner-introduce-slider .box-text .text {
+    margin-bottom: 25px;
+    -webkit-transform: translateX(37%);
+    -ms-transform: translateX(37%);
+    transform: translateX(37%);
+    text-align: center; }
+  .banner-introduce-slider .box-text .text .text-1 {
+    padding-left: 5%; }
+  .banner-discover-360 .tile {
+    padding: 30px 70px; } }
+
+@media screen and (max-width: 540px) {
+  .header-banner .header .banner-mobile {
+    display: block; }
+  .banner-introduce-slider .box-text .text p {
+    padding-left: 0%;
+    padding-right: 0; }
+  .banner-introduce-slider .swiper-2 .swiper-slide .slider {
+    padding-top: 60px; }
+  .banner-introduce .swiper-1 .swiper-slide .slider .box-img-shadow {
+    top: 60px; }
+  .banner-introduce .box-text {
+    padding-left: 8%; }
+  .content-home .home-desktop .Banner-ThuongHai .slider {
+    padding-bottom: 70px; }
+  .content-home .home-desktop .Banner-sigapore .slider .box-img-shadow {
+    bottom: -45px; }
+  .content-home .home-desktop .Banner-HongKong .slider {
+    padding-bottom: 45px; }
+  .content-home .home-desktop .Banner-ThuongHai .slider h3 {
+    left: 36%;
+    top: 65%; }
+  .content-home .home-desktop .Banner-sigapore .slider h3 {
+    top: 84%;
+    left: 44%; }
+  .content-home .home-desktop .Banner-HongKong .slider h3 {
+    top: 88%;
+    left: 38%; }
+  .content-home .banner .box-img-shadow p {
+    font-size: 11px;
+    top: 60%; }
+  .content-home .banner-1 .box-img-shadow p {
+    font-size: 11px;
+    top: 63%; }
+  .header-banner .header .menu-banner-inner .Popular .banner .absolua .text p {
+    font-size: 15px; }
+  .header-banner .header .menu-banner-inner .Popular .banner .absolua h3 {
+    font-size: 30px; }
+  .header-banner .header .menu-banner-inner .Popular .banner .absolua .fil a {
+    font-size: 15px; }
+  .header-banner .header .menu-banner-inner .Popular .banner .tile-height {
+    left: 33%; }
+  .header-banner .header .menu-banner-inner .Popular .banner .tile-height h4 {
+    font-size: 8px; }
+  .banner-benefit-community .benefit .box-text .heading-title h3 {
+    font-size: 25px; }
+  .content-home .home-desktop .tile p {
+    font-size: 10px; }
+  .banner-benefit-community .benefit .box-text .heading-title h4 {
+    font-size: 10px; }
+  .banner-benefit-community .benefit .box-text p {
+    font-size: 10px; }
+  .banner-benefit-community .benefit .box-text .text p {
+    font-size: 10px; }
+  .banner-benefit-community .community .box-text .heading-title h3 {
+    font-size: 25px; }
+  .banner-benefit-community .community .box-text .heading-title h4 {
+    font-size: 10px; }
+  .banner-benefit-community .community .box-text p {
+    font-size: 8px; }
+  .banner-benefit-community .community .box-text .text p {
+    font-size: 10px; }
+  .home-row-partner .row-container .heading-title h3 {
+    font-size: 35px; }
+  .home-row-partner .row-container .heading-title h4 {
+    font-size: 20px; }
+  .home-row-partner .row-container .slider-box .swiper-slide .hot-1 {
+    font-size: 10px; }
+  .home-row-partner .row-container .slider-box .swiper-slide .thumbnail p {
+    font-size: 10px; }
+  .home-row-partner .row-container .slider-box .swiper-slide .see-more p {
+    font-size: 10px; }
+  .home-row-partner .row-container .slider-box .swiper-slide .see-more a img {
+    margin: 0; }
+  .home-row-partner .row-container .slider-box .see .submit {
+    padding: 10px 20px;
+    font-size: 10px; }
+  .registration .heading-title h3 {
+    font-size: 25px; }
+  .registration .heading-title h4 {
+    font-size: 15px; }
+  .banner-discover .row-container .tile-discover {
+    top: 40px; }
+  .banner-discover .row-container .tile-discover .boder p {
+    font-size: 11px; }
+  .banner-discover .row-container .contact .box {
+    font-size: 10px; }
+  .banner-discover .row-container .contact .box .tile {
+    font-size: 10px; }
+  .banner-discover .row-container .contact .box {
+    font-size: 11px; }
+  .banner-discover .row-container .contact .box .tile {
+    font-size: 10px; }
+  .banner-discover .row-container .contact .discover h4 {
+    font-size: 10px; }
+  .banner-discover .row-container .contact .discover a img {
+    width: 11%; }
+  .banner-discover .row-container .contact {
+    top: 35%;
+    left: 0; }
+  .banner-introduce .box-text .heading-title h3 {
+    font-size: 25; }
+  .banner-introduce .box-text .heading-title h4 {
+    font-size: 15px;
+    margin-bottom: 0; }
+  .banner-introduce .box-text p {
+    font-size: 9px; }
+  .banner-introduce .box-text .text p {
+    font-size: 12px; }
+  .banner-introduce .box-text .text p a {
+    font-size: 12px; }
+  .banner-introduce-slider .box-text .heading-title h3 {
+    font-size: 25px;
+    margin-top: 25px; }
+  .banner-introduce-slider .box-text .heading-title h4 {
+    font-size: 15px; }
+  .banner-introduce-slider .box-text p {
+    font-size: 10px; }
+  .banner-introduce-slider .box-text .text p {
+    font-size: 12px; }
+  .banner-introduce-slider .box-text .text p a {
+    font-size: 12px; }
+  .banner-introduce-slider .box-text {
+    padding-top: 16px; }
+  .registration .text .newsletter-container .newsletter-form .information input {
+    margin: 0;
+    padding: 0; }
+  .registration .text .newsletter-container .title {
+    font-size: 9px; }
+  .registration .text .newsletter-container .title a {
+    font-size: 9px; }
+  .registration .text .newsletter-container .newsletter-form .information label {
+    font-size: 12px; }
+  .registration .text .newsletter-container .see-more a img {
+    width: 50%; }
+  .registration .text .newsletter-container .newsletter-form .information input {
+    line-height: 0px; }
+  .registration .text .newsletter-container .see-more p {
+    margin-top: 8px; }
+  .registration .text .newsletter-container .see-more a {
+    margin-top: 8px; }
+  .footer-content .row-container .contact .box {
+    font-size: 13px; }
+  .footer-content .row-container .contact .box p {
+    font-size: 13px; }
+  .footer-content .row-container .contact .box-1 {
+    font-size: 12px; }
+  .footer-content .row-container .contact .box-1 p {
+    font-size: 13px; }
+  .footer-content .row-container .Social i {
+    padding: 0 30px; }
+  .footer-content .row-container .Social i {
+    font-size: 20px; }
+  .footer-content .row-container .contact {
+    padding: 15px 12px 40px 10px;
+    border: none;
+    text-align: center; }
+  .footer-content .row-container .logo-item {
+    padding: 20px 10px 30px 10px;
+    text-align: center;
+    border: none; }
+  .footer-content .row-container .contact .box {
+    margin-bottom: 10px; }
+  .footer-content .row-container .Social {
+    padding-top: 20px;
+    padding-bottom: 25px; }
+  .footer-content .footer .row-container .footer-1 .text {
+    font-size: 10px; }
+  .footer-content .footer .row-container .footer-1 p {
+    font-size: 10px; }
+  .header-banner .support {
+    padding: 0;
+    width: 45px;
+    margin-bottom: 45px;
+    z-index: 2222; }
+  .header-banner .support .menu {
+    margin-bottom: 10px;
+    font-size: 7px; }
+  .header-banner .support .menu .bnt span {
+    width: 20px; }
+  .header-banner .support .buttons-1 .item {
+    margin-bottom: 7px;
+    padding: 5px; }
+  .banner-introduce .box-text {
+    margin-top: 30px; }
+  .registration .home .home-1 {
+    height: 120%; }
+  .registration .text .newsletter-container {
+    padding-left: 8%;
+    padding-right: 8%; }
+  .banner-introduce .swiper-button-next {
+    left: 44px;
+    bottom: 115px;
+    width: 65px;
+    height: 62px; }
+  .banner-discover .row-container .tile-discover {
+    margin-top: 100px; }
+  .shoe-1 {
+    position: absolute;
+    width: 100%;
+    height: 80%; }
+  .banner-discover .shoe-1 {
+    display: block; }
+  .banner-mobile {
+    display: block; }
+  .banner-2 {
+    display: none; }
+  .header-banner .header .menu-banner-inner .Popular .banner .logo {
+    width: 50%;
+    top: 5%;
+    left: 25%; }
+  .banner-discover .sider-bottom .banner-1 .shoe {
+    display: none; }
+  .banner-discover .sider-bottom .banner-1 .shoe-mobile {
+    display: block;
+    margin-top: 85px; }
+  .banner-discover .shoe {
+    display: none; } }
+
+@media screen and (max-width: 480px) {
+  .banner-mobile {
+    display: block; }
+  .banner-discover .row-container .tile-discover {
+    margin-top: 160px; }
+  .header-banner .header .menu-banner-inner .Popular .banner .absolua {
+    top: 50%; }
+  .banner-benefit-community .community .box-text p {
+    font-size: 10px; }
+  .header-banner .header .menu-banner-inner .Popular .banner .absolua .text p {
+    font-size: 15px;
+    text-align: center; }
+  .header-banner .header .menu-banner-inner .Popular .banner .absolua h3 {
+    font-size: 35px;
+    margin-left: 0; }
+  .header-banner .header .menu-banner-inner .Popular .banner .absolua .fil a {
+    font-size: 12px;
+    text-align: center; }
+  .header-banner .header .menu-banner-inner .Popular .banner .tile-height {
+    left: 13%;
+    top: 80%; }
+  .header-banner .header .menu-banner-inner .Popular .banner .tile-height h4 {
+    font-size: 11px; }
+  .content-home .home-desktop .tile p {
+    font-size: 10px; }
+  .content-home .home-desktop .Banner-ThuongHai .slider .box-img-shadow {
+    bottom: 45px; }
+  .content-home .home-desktop .Banner-ThuongHai .slider h3 {
+    left: 35%;
+    top: 55%;
+    font-size: 10px; }
+  .content-home .home-desktop .Banner-sigapore .slider .box-img-shadow {
+    bottom: -25px; }
+  .content-home .home-desktop .Banner-sigapore .slider h3 {
+    font-size: 10px; }
+  .content-home .home-desktop .Banner-HongKong .slider h3 {
+    top: 87%;
+    left: 37%;
+    font-size: 10px; }
+  .content-home .home-desktop .Banner-sigapore {
+    margin-top: 10px;
+    margin-bottom: 80px; }
+  .content-home .home-desktop .Banner-HongKong .slider {
+    padding-bottom: 30px; }
+  .content-home .banner .box-img-shadow p {
+    padding-left: 0%;
+    padding-right: 25%;
+    text-align: center; }
+  .content-home .banner-1 .box-img-shadow p {
+    padding-left: 0%;
+    padding-right: 25%;
+    text-align: center; }
+  .banner-benefit-community .benefit .swiper-2 {
+    width: 100%; }
+  .banner-benefit-community .benefit .box-text {
+    width: 100%;
+    padding-left: 10%;
+    margin-top: 20px; }
+  .banner-benefit-community .benefit .box-text .text p {
+    padding: 0;
+    font-size: 10px; }
+  .banner-benefit-community .community .swiper-3 {
+    width: 100%; }
+  .banner-benefit-community .community .box-text {
+    width: 100%;
+    padding-right: 10%;
+    margin-bottom: 20px; }
+  .banner-benefit-community .benefit {
+    top: 40px; }
+  .banner-benefit-community .community {
+    padding-bottom: 140px; }
+  .home-row-partner .row-container .slider-box .swiper-slide .hot-1 {
+    font-size: 12px; }
+  .home-row-partner .row-container .slider-box .swiper-slide .thumbnail p {
+    font-size: 12px; }
+  .home-row-partner .row-container .slider-box .swiper-slide .see-more p {
+    font-size: 12px; }
+  .banner-introduce .box-text {
+    float: inherit;
+    width: 100%; }
+  .banner-introduce-slider .box-text {
+    float: inherit;
+    width: 100%;
+    padding-bottom: 30px; }
+  .banner-introduce-slider .swiper-2 {
+    width: 100%;
+    padding-bottom: 50px; }
+  .banner-discover .shoe {
+    height: 80%;
+    display: none; }
+  .registration .text .newsletter-container {
+    padding-left: 8%;
+    padding-right: 8%; }
+  .registration .text {
+    padding-bottom: 13px; }
+  .footer-content .row-container .logo-item {
+    padding: 0; }
+  .footer-content .row-container .contact .box-1 {
+    font-size: 12px;
+    width: 100%; }
+  .footer-content .row-container .contact .box {
+    font-size: 12px;
+    width: 100%;
+    line-height: 2.0; }
+  .banner-benefit-community .community .box-text .text p {
+    font-size: 10px; }
+  .banner-benefit-community .benefit .box-text .heading-title h4 {
+    font-size: 15px; }
+  .banner-benefit-community .community .box-text .heading-title h4 {
+    font-size: 15px; }
+  .banner-benefit-community .banner {
+    height: 96%; }
+  .banner-introduce-slider .box-text .heading-title h4 {
+    -webkit-transform: translateX(22%);
+    -ms-transform: translateX(22%);
+    transform: translateX(22%); }
+  .banner-introduce-slider .box-text .heading-title h3 {
+    -webkit-transform: translateX(20%);
+    -ms-transform: translateX(20%);
+    transform: translateX(20%); }
+  .banner-introduce-slider .box-text .text {
+    -webkit-transform: translateX(-39%);
+    -ms-transform: translateX(-39%);
+    transform: translateX(-39%); }
+  .banner-introduce-slider .box-text p {
+    -webkit-transform: translateX(74%);
+    -ms-transform: translateX(74%);
+    transform: translateX(74%); }
+  .banner-introduce .box-text .heading-title h3 {
+    font-size: 30px; }
+  .banner-introduce .swiper-button-prev {
+    left: 0;
+    top: 103%;
+    height: 50px;
+    width: 18%; }
+  .banner-introduce .swiper-button-next:after {
+    top: 45%; }
+  .banner-introduce-slider .swiper-button-next:after {
+    top: 45%; }
+  .banner-introduce .swiper-button-prev:after {
+    top: 45%; }
+  .banner-introduce .swiper-button-next {
+    left: 57px;
+    bottom: -50px;
+    width: 65px;
+    height: 50px; }
+  .banner-introduce-slider .swiper-button-prev {
+    right: 0;
+    top: 46%;
+    height: 50px;
+    width: 18%; }
+  .banner-introduce-slider .swiper-button-next {
+    right: 57px;
+    bottom: 332px;
+    width: 65px;
+    height: 51px; }
+  .banner-discover-360 .tile {
+    padding: 5px 15px; }
+  .banner-discover-360 .tile .tile-1 {
+    left: 5%; }
+  .banner-discover-360 .tile .tile-2 {
+    left: 4%; }
+  .banner-discover-360 .tile .tile-1 a {
+    font-size: 20px; }
+  .banner-discover-360 .tile .tile-2 a {
+    font-size: 15px; }
+  .banner-discover .row-container .tile-discover .boder p a {
+    font-size: 11px; }
+  .footer-content .row-container .contact {
+    text-align: left; }
+  .registration .text .newsletter-container .title {
+    font-size: 12px; }
+  .registration .text .newsletter-container .title a {
+    font-size: 12px; }
+  .registration .text .newsletter-container .newsletter-form .information input {
+    margin-bottom: 30px; }
+  .registration .home .home-1 {
+    height: 126%; }
+  margin-bottom: 40px;
+  .registration .text .newsletter-container .newsletter-form .information label {
+    font-size: 12px; }
+  .home-row-partner .row-container .slider-box .swiper-slide .see-more a img {
+    width: 13%; } }
+
+@media screen and (max-width: 414px) {
+  .banner-introduce-slider .swiper-button-prev {
+    top: 48%; } }
+
+@media screen and (max-width: 414px) {
+  .banner-discover .sider-bottom .banner-1 .shoe-mobile {
+    margin-top: 160px; } }
+
+@media screen and (max-width: 320px) {
+  .banner-introduce-slider .swiper-button-next {
+    bottom: 355px; }
+  .banner-introduce-slider .swiper-button-prev {
+    top: 42%; } }
